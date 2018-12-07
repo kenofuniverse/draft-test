@@ -1,0 +1,35 @@
+.main-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.main-container .editor {
+  min-height: 100px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.suggestion-list {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion-list li {
+  margin: 0;
+  padding: 5px 24px;
+  background: white;
+  border: 1px solid #efefef;
+  list-style-type: none;
+}
+
+.suggestion-list .selected {
+  margin: 0;
+  background: skyblue;
+  color: white;
+  border-radius: 3px;
+}
